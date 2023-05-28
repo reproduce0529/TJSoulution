@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'SUITE-Regular';
+    animation: fadein 3s ease;
+}
+html, body{
+    width: 100%;
+    position: relative;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+header{
+    width: 100%;
+    height: 84px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    
+    animation: fadein 3s ease;
+}
+.inner{
+    width: 1340px;
+    margin: auto;
+    background-color: white;
+}
+header > .inner{
+    width: 1340px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo-img{
+    display: block;
+    height: 60px;
+}
+
+.header-menu-item{
+    padding: 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.company-section-img{
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.company-section-img > img{
+    display: block;
+    margin: auto;
+    animation: fadein 2s ease;
+}
+.section-title{
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 32px;
+    text-align: center;
+    animation: fadein 3s ease;
+    margin-top: 120px;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.produck_bosdew > strong{
+    color: #EA6523;
+}
+#company-section{
+
+}
+
+.textblock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.textblock > div{
+    width: 50%;
+    
+}
+.left-title{
+    background-color: #EA6523;
+    color: white;
+    
+    font-size: 28px;
+    padding: 24px;
+}
+.left-text{
+    padding: 20px;
+    text-align: left;
+    font-size: 20기술과 사람을 연결하는 전문 IT 기업px;
+    color: #0f0f0f;
+}
+.block_left{
+    height: 472px;
+}
+.produck_bosdew{
+    
+    text-align: center;
+    width: 820px;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.produck_bosdew > p{
+    font-size: 32px;
+}
+
+.underline{
+    border-bottom: 2px solid #EA6523;
+    padding-bottom: 6px;
+    
+}
+
+.lang_item{
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    opacity: .4;
+    margin: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lang_item:hover{
+    opacity: 1;
+}
+#lang_item_kor{
+    background-image: url(/kor.png);
+}
+
+#lang_item_usa{
+    background-image: url(/usa.png);
+}
+.active{
+    opacity: 1 !important;
+    transform: scale(1.2) !important;    
+}
+.lang_box{
+    position: absolute;
+    
+    z-index: 9999;
+    display: flex;
+    right: 120px;
+    top: 100px;
+}
+
+.section-bg-carrot{
+    background-color: #EA6523;
+    color: white;
+    margin-top: 48px;
+    font-size: 20px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.table-line{
+    display: flex;
+    align-items: center;
+    width: 820px;
+    margin: auto;
+    padding: 32px;
+    border-bottom: 1px solid white;
+}
+
+.table-line-title{
+    width: 120px;
+}
+.table-line-content{
+    padding-left: 40px;
+}
+
+.section-grp-box{
+    margin-top: 120px;
+}
+.section-grp-title{
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: #EA6523;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.section-bg-carrot > .inner{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.logo_reverse{
+    width: 420px;
+}
+.table_box{
+    margin: auto;
+}
+
+.xcc_line{
+    font-size: 20px;
+    width: 820px;
+    margin: auto;
+    padding: 16px;
+}
+.lineBox{
+    margin-top: 60px;
+}
+
+#final_section{
+    margin-bottom: 120px;
+}
+
+.product_img{
+    width: 820px;
+    margin: auto;
+    margin-top: 32px;
+}
+.product-title{
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 32px;
+    text-align: center;
+    animation: fadein 3s ease;
+    margin-top: 80px;
+}
+.product-text{
+    width: 820px;
+    margin: auto;
+    margin-top: 24px;
+    line-height: 38px;
+    font-size: 24px;
+}
+
+.spac_table{
+    
+    width: 820px !important;
+    margin: auto;
+    margin-top: 60px;
+
+}
